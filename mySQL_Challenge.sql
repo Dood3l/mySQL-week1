@@ -1,25 +1,25 @@
--- CREATE DATABASE mySQL_week1;
+CREATE DATABASE mySQL_week1;
 
--- USE mySQL_week1;
+USE mySQL_week1;
 
 -- very easy
--- CREATE TABLE top_cars (
--- make VARCHAR(20),
--- model VARCHAR(20),
--- year INT
--- );
+CREATE TABLE top_cars (
+make VARCHAR(20),
+model VARCHAR(20),
+year INT
+);
 
--- INSERT INTO top_cars (make, model, year) VALUES ('Porsche','911', 2021), ('Toyota', 'Supra', 2022);
+INSERT INTO top_cars (make, model, year) VALUES ('Porsche','911', 2021), ('Toyota', 'Supra', 2022);
 
--- -- easy
--- CREATE TABLE books(
--- bookid INT AUTO_INCREMENT,
--- title VARCHAR(45),
--- published_date INT,
--- author_firstname VARCHAR(45),
--- author_lastname VARCHAR(45),
--- PRIMARY KEY(bookid)
--- );
+-- easy
+CREATE TABLE books(
+bookid INT AUTO_INCREMENT,
+title VARCHAR(45),
+published_date INT,
+author_firstname VARCHAR(45),
+author_lastname VARCHAR(45),
+PRIMARY KEY(bookid)
+);
 
 INSERT INTO books (title, published_date, author_firstname ,author_lastname) VALUES
 ('one', 2000, 'Brian', 'K'),
